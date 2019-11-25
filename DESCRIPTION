@@ -1,0 +1,13 @@
+Package: ExonCountData
+Type: Package
+Title: RNA-Seq exon count data of BLCA and LIHC cancer from TCGA database.
+Version: 1.0.0
+Depends: Biobase, DEXSeq, R (>= 3.0.0)
+Author: Juan R Gonzalez <juanr.gonzalez@isglobal.org>
+Maintainer: Juan R Gonzalez <juanr.gonzalez@isglobal.org>
+Date: 2019-11-25
+Description: RNA-Seq exon count data corresponding to Urothelial bladder cancer from 115 individuals. 
+Original data downloaded from TCGA database (http://cancergenome.nih.gov).
+biocViews: HighThroughputSequencingData, RNAseqData, Exon
+License: MIT
+LazyLoad: yes
